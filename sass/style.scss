@@ -1,0 +1,41 @@
+/*Cutom Styles*/
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Rubik&display=swap');
+
+@import 'includes/variables';
+@import 'includes/global';
+@import 'includes/typography';
+@import 'includes/color';
+@import 'includes/topSale';
+@import 'includes/banner-ad';
+
+
+#banner-area .owl-carousel{
+
+    display: flex-box;
+
+    .item{
+       height: 80vh;
+       img{
+           max-width: 100%;
+       }
+    }
+}
+
+
+@media (max-aspect-ratio: 16/9){
+    #banner-area .owl-carousel{
+        .item{
+         height:100%;
+         
+        }
+    }
+
+
+
+    
+
+
+}
+

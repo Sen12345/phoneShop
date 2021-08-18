@@ -1,0 +1,130 @@
+/*Cutom Styles*/
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Rubik&display=swap");
+/*Variables*/
+/*Global class*/
+/*Variables*/
+button, button:focus {
+  outline: none !important;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+/*typography*/
+/*Variables*/
+.font-baloo {
+  font-family: "Baloo", cursive;
+}
+
+.font-rale {
+  font-family: "Raleway", cursive;
+}
+
+.font-rubik {
+  font-family: "Rubik", cursive;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+/*Colors*/
+/*Variables*/
+.color-primary {
+  background: navy !important;
+}
+
+.color-secondary {
+  background: skyblue !important;
+}
+
+.color-yellow {
+  color: #FFD289;
+}
+
+.background-yellow {
+  background: #FFD289;
+}
+
+/*Top Sale Template*/
+/*Variables*/
+#top-sale .owl-carousel .item .product a {
+  overflow: hidden;
+}
+
+#top-sale .owl-carousel .item .product img {
+  -webkit-transition: -webkit-transform 5s ease;
+  transition: -webkit-transform 5s ease;
+  transition: transform 5s ease;
+  transition: transform 5s ease, -webkit-transform 5s ease;
+}
+
+#top-sale .owl-carousel .item .product img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#top-sale .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+
+#top-sale .owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+}
+
+#top-sale .owl-carousel .owl-nav button.owl-prev span {
+  font-size: 35px;
+  color: navy;
+  margin-left: -4rem;
+  padding: 0 1rem;
+}
+
+#top-sale .owl-carousel .owl-nav button.owl-next {
+  right: 0;
+}
+
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+  font-size: 35px;
+  color: navy;
+  margin-right: -4rem;
+  padding: 0 1rem;
+}
+
+/*Banner ad*/
+.banner img {
+  width: 30%;
+}
+
+#banner-area .owl-carousel {
+  display: flex-box;
+}
+
+#banner-area .owl-carousel .item {
+  height: 80vh;
+}
+
+#banner-area .owl-carousel .item img {
+  max-width: 100%;
+}
+
+@media (max-aspect-ratio: 16 / 9) {
+  #banner-area .owl-carousel .item {
+    height: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

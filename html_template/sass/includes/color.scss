@@ -1,0 +1,20 @@
+/*Colors*/
+@import 'variables';
+
+.color-primary{
+    background: $color-primary !important;
+}
+
+.color-secondary{
+    background: $color-secondary !important;
+}
+
+
+.color-yellow{
+    color: $yellow;
+}
+
+
+.background-yellow{
+    background: $yellow;
+}

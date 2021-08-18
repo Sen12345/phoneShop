@@ -1,0 +1,18 @@
+/*Colors*/
+/*Variables*/
+.color-primary {
+  background: navy !important;
+}
+
+.color-secondary {
+  background: skyblue !important;
+}
+
+.color-yellow {
+  color: #FFD289;
+}
+
+.background-yellow {
+  background: #FFD289;
+}
+/*# sourceMappingURL=color.css.map */
